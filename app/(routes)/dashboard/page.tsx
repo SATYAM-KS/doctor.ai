@@ -2,6 +2,7 @@ import React from 'react'
 import HistoryList from './_components/HistoryList'
 import DoctorsList from './_components/DoctorsList'
 import AddNewSession from './_components/AddNewSession'
+import WebhookForm from './_components/WebhookForm'
 
 function Dashboard() {
   return (
@@ -12,6 +13,7 @@ function Dashboard() {
       </div>
       <HistoryList />
       <DoctorsList />
+      <WebhookForm />
     </div>
   )
 }

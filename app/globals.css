@@ -627,3 +627,8 @@ a.items-center.justify-center.whitespace-nowrap.rounded-md.text-sm.font-medium.r
 hr{
   display: none;
 }
+
+.flex.flex-col.space-y-1\.5.p-6.webhook-form-header {
+  display: flex;
+  flex-direction: row;
+}
