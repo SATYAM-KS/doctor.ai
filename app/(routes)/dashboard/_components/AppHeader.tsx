@@ -14,6 +14,16 @@ const menuItems = [
     label: "Home",
     href: "/",
   },
+  {
+    id: 2,
+    label: "chatbot",
+    href: "/chatbot",
+  },
+  {
+    id: 3,
+    label: "consultation",
+    href: "/consultation",
+  },
 ]
 
 function AppHeader() {

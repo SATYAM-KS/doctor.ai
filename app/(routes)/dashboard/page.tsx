@@ -3,6 +3,7 @@ import HistoryList from './_components/HistoryList'
 import DoctorsList from './_components/DoctorsList'
 import AddNewSession from './_components/AddNewSession'
 import WebhookForm from './_components/WebhookForm'
+import SOSButton from './_components/SOSButton'
 
 function Dashboard() {
   return (
@@ -14,6 +15,7 @@ function Dashboard() {
       <HistoryList />
       <DoctorsList />
       <WebhookForm />
+      <SOSButton />
     </div>
   )
 }
